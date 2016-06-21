@@ -1,0 +1,47 @@
+body {
+	background-color: green;
+	background-image: url('file:///Users/sundeepsamra/Projects/Shopping%20List/images/background.jpg');
+	background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+	font-family: sans-serif;
+
+}
+
+.boxed {
+	border: 1px solid black;
+	background-color: white;
+}
+
+.boxed > h1 {
+	font-size: 36px;
+	text-align: center;
+}
+
+.lists {
+	background-color: black;
+	color: white;
+	font-size: 1.5em;
+	border-radius: 8px;
+	text-align: center;
+}
+
+ul {
+	color: purple;
+	list-style: none;
+	text-align: center;
+}
+
+.button1 {
+	padding: 16px;
+	border-radius: 2px;
+	border: 1px solid green;
+	font-size: 16px;
+}
+
+.button2 {
+	padding: 16px;
+	border-radius: 2px;
+	border: 1px solid green;
+	font-size: 16px;
+}
