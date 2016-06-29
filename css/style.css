@@ -9,6 +9,10 @@ body {
 
 }
 
+.shoppinglistitem {
+	border-color: red;
+}
+
 .boxed {
 	border: 5px solid orange;
 	background-color: #fff0b3;
@@ -41,24 +45,11 @@ ul {
 	text-align: center;
 }
 
-.button1 {
-	padding: 16px;
-	border-radius: 2px;
-	border: 1px solid green;
-	font-size: 16px;
-}
-
-.addbutton{
-	background-color: orange;
-	color: white;
-	padding: 5px;
-}
-
-.addbutton:hover {
-	background-color: blue;
-	color: white;
-}
-
 #list li {
 	color: black;
+}
+
+p {
+	color: red;
+	text-align: center;
 }
